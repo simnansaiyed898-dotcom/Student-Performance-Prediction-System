@@ -1,0 +1,54 @@
+{
+  "regression": {
+    "Linear Regression": {
+      "MAE": 3.754,
+      "RMSE": 4.586,
+      "R2": 0.856
+    },
+    "Random Forest Regressor": {
+      "MAE": 4.401,
+      "RMSE": 5.474,
+      "R2": 0.795
+    }
+  },
+  "classification": {
+    "Logistic Regression": {
+      "Accuracy": 0.87,
+      "Precision": 0.883,
+      "Recall": 0.883,
+      "F1": 0.883,
+      "CV_Accuracy": 0.882
+    },
+    "Decision Tree": {
+      "Accuracy": 0.81,
+      "Precision": 0.807,
+      "Recall": 0.865,
+      "F1": 0.835,
+      "CV_Accuracy": 0.776
+    },
+    "Random Forest": {
+      "Accuracy": 0.835,
+      "Precision": 0.842,
+      "Recall": 0.865,
+      "F1": 0.853,
+      "CV_Accuracy": 0.853
+    }
+  },
+  "top_features": {
+    "previous_grade": 0.294,
+    "study_hours": 0.218,
+    "attendance": 0.1,
+    "sleep_hours": 0.09,
+    "failures": 0.071,
+    "absences": 0.065,
+    "free_time": 0.041,
+    "age": 0.037,
+    "parent_education_Postgraduate": 0.019,
+    "extra_activities_Yes": 0.016
+  },
+  "best_regressor": "Linear Regression",
+  "best_classifier": "Logistic Regression",
+  "n_rows": 1000,
+  "n_train": 800,
+  "n_test": 200
+}
